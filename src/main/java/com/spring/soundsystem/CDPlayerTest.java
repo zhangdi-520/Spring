@@ -29,4 +29,9 @@ public class CDPlayerTest {
     public void play(){
         player.play();
     }
+
+    @Test
+    public void jzd(){
+        System.out.println("aaa");
+    }
 }
