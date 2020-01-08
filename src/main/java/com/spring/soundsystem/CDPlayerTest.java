@@ -31,6 +31,11 @@ public class CDPlayerTest {
     }
 
     @Test
+    public void jzd(){
+        System.out.println("aaa");
+    }
+
+    @Test
     public void ok(){
         System.out.println("zzz");
     }
