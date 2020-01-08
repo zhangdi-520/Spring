@@ -21,4 +21,8 @@ public class SgtPeppers implements CompactDisc{
     public void out(){
         System.out.println("aaa");
     }
+
+    public void out1(){
+        System.out.println("bbb");
+    }
 }
