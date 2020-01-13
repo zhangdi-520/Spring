@@ -12,7 +12,17 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class ConcertConfig {
 
     @Bean
+    public EncoreableIntroducer encoreableIntroducer(){
+        return  new EncoreableIntroducer();
+    }
+
+    @Bean
     public Audience audience(){
         return new Audience();
+    }
+
+    @Bean
+    public Performance dance(){
+        return new Dance();
     }
 }
